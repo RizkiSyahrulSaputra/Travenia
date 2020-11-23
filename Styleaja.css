@@ -1,0 +1,259 @@
+body {
+  margin: 0;
+  font-family: Arial
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  color: black;
+}
+
+.top-wrapper {
+  padding: 150px 0 180px 0px;
+  background-image: url(https://images6.alphacoders.com/926/926420.jpg);
+  background-size: cover;
+  color: #ffffff;
+  text-align: left;
+}
+
+.top-wrapper h1 {
+  opacity: ;
+  font-size: 60px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper h2 {
+  opacity: ;
+}
+
+.top-wrapper p {
+  margin-bottom: 10px;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: #ffffff;
+  display: inline-block;
+  opacity: 0.7;
+  border-radius: 4px;
+
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.signup {
+  background-color: black;
+}
+
+.facebook {
+  background-color: black;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+.twitter {
+  background-color: black;
+}
+
+header {
+  height: 50px;
+  background-color: white;
+}
+
+.header-left {
+  padding-left: 1px;
+  padding-bottom: 15px;
+  padding-top: 13px;
+  font-size: 27px;
+  float: left;
+  color: black;
+  font-family: 'myriad pro'
+}
+
+.header-right {
+  float: right;
+  background-color: black;
+  transition: all 0.5s; /*untuk animasi yg berubah setiap saat fungsi hover*/
+}
+
+.header-right:hover {
+  background-color: grey;
+}
+
+.header-right a {
+  line-height: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: white;
+  display: block;
+  font-size: 20px;
+}
+
+.contact {
+  margin-top: 100px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.contact p {
+  color: black;
+  font-size: 26px;
+}
+
+.contact .kecilan {
+  color: black;
+  font-size: 15px;
+  line-height: 0px;
+}
+
+.penawaran > * {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typingAnim 3s steps(21);
+}
+
+@keyframes typingAnim {
+  from {width: 0}
+  to {width: 100%;}
+
+}
+
+.content{
+  color: white;
+  line-height: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: inline-block;
+  font-size: 20px;
+  background-color: black;
+  transition: 0.5s;
+  height: 50px;
+  border-radius: 7px;
+  margin-top: 20px;
+}
+
+.contact span {
+  text-shadow: 0px -2px darkgrey;
+}
+
+.content:hover {
+  background: darkgrey;
+  transition: 0.5s;
+}
+
+footer {
+  text-align: left;
+}
+
+.penawaran {
+  column-count: 3;
+  font-size: 30px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.header-list {
+  margin-right: 140px;
+  margin-top: -65px;
+}
+
+.header-list li {
+  float: right;
+  padding: 0px 20px 37px 20px;
+}
+
+.kolom {
+  background-color: black;
+  font-family: Arial;
+  text-align:center;
+  color: white;
+  margin-top: 40px;
+  font-size: 15px;
+}
+
+li {
+  list-style: none;
+}
+
+.footer {
+background-color: black;
+  height: 130px;
+  padding: 10px 30px 20px 30px ;
+  color: white;
+}
+
+
+.footer-logo{
+  font-size: 25px;
+  float:left;
+  margin-top: 70px;
+}
+
+.footer-list {
+  float:right;
+}
+
+.footer-list li {
+  padding: 20px 20px 0px 20px  ;
+}
+
+.footer img {
+  margin-top: 55px;
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 80%;
+  }
+
+  .penawaran {
+    width: 100%;
+    text-align: center;
+    column-count: 1;
+
+  }
+
+  .header-list li {
+  float: right;
+  padding: 37px 20px 37px 20px;
+}
+
+  .kolom p {
+    margin: 30px;
+  }
+
+  .top-wrapper {
+    text-align: center;
+  }
+
+  .top-wrapper h1 {
+    font-size: 45px;
+  }
+
+.header-list li {
+  display: none;
+}
+
+}
+
+@media (min-width: 720px) and (max-width: 922px;){
+  .container {
+    width: 50%;
+  }
+
+  .penawaran {
+    width: 70%;
+    text-align: center;
+    column-count: 2;
+  }
+
+}
